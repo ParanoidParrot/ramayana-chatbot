@@ -9,10 +9,9 @@ from audio_recorder_streamlit import audio_recorder
 from rag_chain import ask, speech_to_text, text_to_speech, LANGUAGE_CODES
 
 import os
-import sys
+from seed_knowledge_base import seed as seed_db
 if not os.path.exists("./ramayana_db"):
-    import subprocess
-    subprocess.run([sys.executable, "seed_knowledge_base.py"])
+    seed_db()
 
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(

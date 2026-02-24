@@ -9,8 +9,9 @@ import os
 import chromadb
 
 # ── Config ──────────────────────────────────────────────────────────────────
-DATA_FILE   = "data/passages.json"
-DB_PATH     = "./ramayana_db"
+BASE_DIR  = os.path.dirname(os.path.abspath(__file__))
+DB_PATH   = os.path.join(BASE_DIR, "ramayana_db")
+DATA_FILE = os.path.join(BASE_DIR, "data", "passages.json")
 COLLECTION  = "ramayana_passages"
 
 def seed():
