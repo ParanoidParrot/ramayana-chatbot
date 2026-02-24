@@ -17,7 +17,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 SARVAM_API_KEY = os.getenv("SARVAM_API_KEY")
-sarvam_client  = SarvamAI(api_subscription_key=SARVAM_API_KEY)"
+sarvam_client  = SarvamAI(api_subscription_key=SARVAM_API_KEY)
 DB_PATH        = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ramayana_db")
 COLLECTION     = "ramayana_passages"
 
