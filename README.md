@@ -10,13 +10,9 @@ Get answers as text or listen to them in your language.
 - **ChromaDB** for semantic search over Ramayana passages
 - Clean chat UI built with **Streamlit**
 
-🌐 Try It Live
-👉 Click here to open the chatbot
-(No download or signup required — just click and start asking)
 
-
-🛠️ Tech Stack
-### Component                               Technology
+### 🛠️ Tech Stack
+**Component**                               **Technology**
 LLM                                         Sarvam-M (24B Indian language model)
 Translation                                 Sarvam Translate (mayura:v1)
 Speech to Text                              Sarvam Saarika v2.5
