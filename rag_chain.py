@@ -33,6 +33,7 @@ LANGUAGE_CODES = {
     "Marathi":    "mr-IN",
     "Gujarati":   "gu-IN",
     "Punjabi":    "pa-IN",
+    "Odia":       "or-IN",
 }
 
 # ── ChromaDB client (lazy loaded) ────────────────────────────────────────────
@@ -230,6 +231,7 @@ TTS_VOICES = {
     "Marathi":   "anushka",
     "Gujarati":  "anushka",
     "Punjabi":   "anushka",
+    "Odia":     "anushka",
 }
 
 def text_to_speech(text: str, language: str = "English") -> dict:
