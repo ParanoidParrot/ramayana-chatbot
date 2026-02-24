@@ -8,6 +8,11 @@ import streamlit as st
 from audio_recorder_streamlit import audio_recorder
 from rag_chain import ask, speech_to_text, text_to_speech, LANGUAGE_CODES
 
+import os
+if not os.path.exists("./ramayana_db"):
+    import subprocess
+    subprocess.run(["python3", "seed_knowledge_base.py"])
+
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="Ramayana Chatbot — Powered by Sarvam AI",
