@@ -12,13 +12,14 @@ Get answers as text or listen to them in your language.
 
 
 ### 🛠️ Tech Stack
-**Component**                               **Technology**
-LLM                                         Sarvam-M (24B Indian language model)
-Translation                                 Sarvam Translate (mayura:v1)
-Speech to Text                              Sarvam Saarika v2.5
-Text to Speech                              Sarvam Bulbul v
-Vector Database                             ChromaDB
-UI                                          Streamlit
+| Component | Technology |
+|-----------|------------|
+| LLM | Sarvam-M (24B Indian language model) |
+| Translation | Sarvam Translate (mayura:v1) |
+| Speech to Text | Sarvam Saarika v2.5 |
+| Text to Speech | Sarvam Bulbul v3 |
+| Vector Database | ChromaDB |
+| UI | Streamlit |
 
 ## Setup
 
