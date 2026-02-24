@@ -1,0 +1,6 @@
+.env
+ramayana_db/
+__pycache__/
+*.pyc
+.venv/
+venv/
